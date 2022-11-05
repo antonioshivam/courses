@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+Career Oriented- extrracurricular.
+</title>
+<style>
+/* Basics */
+body
+{
+    background-color: turquoise;
+}
+*{
+    margin-left: 2px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    height: 10vh;
+    background: rgb(7, 0, 66);
+}
+
+.heading{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+    padding-left: 8%;
+    align-items: center;
+    color: #ffffffc7;
+}
+
+/* Image carousel box */
+.container {
+    position: relative;
+    max-width: 900px;
+    height: auto;
+    margin: auto;
+    margin-top: 3vh;
+    border: #fff solid 3px;
+    background: rgb(255, 255, 255);
+}
+
+.main-img img,
+.sub-imgs img {
+    width: 100%;
+}
+
+.sub-imgs {
+    display: grid;
+    /* 4 images per coloumn */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+/* Slide buttons */
+.slide-buttons{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    transform: translate(-2%, -30%);
+    width: 100%;
+}
+
+.slide-buttons button{
+    width: 20px;
+    height: 50px;
+    background: none;
+    color: rgba(255, 255, 255, 0.452);
+    border: none;
+	padding: 0;
+	cursor: pointer;
+    outline: inherit;
+    font-size: 1.8rem;
+    z-index: 1;
+}
+
+#left-button{
+    margin-left: 2%;
+}
+
+#right-button{
+    margin-left: 90%;
+}
+
+
+
+/* Fade in animation for the carousel */
+@keyframes fadeIn {
+    100%{
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.3s ease-in 1 forwards;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 660px;
+        margin-top: 2vh;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .line{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 5px;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+    }
+
+    #left-button{
+    margin-left: 4%;
+    }
+
+    #right-button{
+        margin-left: 80%;
+    }
+}
+</style>
+</head>
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="./image_slider.css">
+
+</head>
+<nav>
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="heading">
+        <h1>Courses I had Done (Career Oriented)-From Universities and Collages.</h1>
+        <a href="https://antonioshivam.github.io/courses/"><i class="fa fa-arrow-left fa-3x" alt="back" style="position: absolute; right: 100px; top: 15px;">
+        </i></a> 
+    </div>
+</nav>
+<br>
+
+<div class="container">
+    <div class="main-img">
+        <img src="https://i.ibb.co/d5rpmvz/IIT-iot.jpg" alt="image" id="current">
+    </div>
+
+    <!-- Adding buttons to slide -->
+    <div class="slide-buttons">
+        <button id="left-button">&lsaquo;</button>
+        <button id="right-button">&rsaquo;</button>
+    </div>
+    <!-- All images are from wallpaper flare -->
+    <div class="sub-imgs">
+        <img src="https://i.ibb.co/d5rpmvz/IIT-iot.jpg" alt="image1">
+        <img src="https://i.ibb.co/WVfYgjN/IIIT-KOTA-cybersecurity.jpg" alt="image2">
+        <img src="https://i.ibb.co/wNqfxwr/Standford-Unconscious-bias.jpg" alt="image3">
+        <img src="https://i.ibb.co/DG0J7vw/course-enroll.png" alt="image4">
+        <img src="https://i.ibb.co/PCdVM3P/sixsigma.jpg" alt="image5">
+        <img src="https://i.ibb.co/9cLQSvD/USIP.jpg" alt="image6">
+        <img src="https://i.ibb.co/6D0tJhx/certificateofachivementoxford.jpg" alt="image7">
+        <img src="https://i.ibb.co/Bg40zQ4/transcript-oxford-futurelearn.jpg" alt="image8">
+        <img src="https://i.ibb.co/qNfM0TK/openlearnbabylion.jpg" alt="image9">
+        <img src="https://i.ibb.co/mTkccKF/openlearntranscript.jpg" alt="image10">
+        <img src="https://i.ibb.co/GpK8zjf/UCLachievement.jpg" alt="image10">
+        <img src="https://i.ibb.co/XzfVfBY/ucltranscript.jpg" alt="image10">
+        <img src="https://i.ibb.co/d25c8Y0/newcastleachie.jpg" alt="image10">
+        <img src="https://i.ibb.co/xfKN83s/newsactletrans.jpg" alt="image10">
+        <img src="https://i.ibb.co/vQ14XSV/brentwoodenrollment.jpg" alt="image10">
+        <img src="https://i.ibb.co/Lh54hT5/brentwoodcompletion.jpg" alt="image10">
+        <img src="https://i.ibb.co/JxXLnys/brentwoodachievment.jpg" alt="image10">
+        <img src="https://i.ibb.co/G96WHL2/brentwoodtrans.jpg" alt="image10">
+        <img src="https://i.ibb.co/M19CNST/hsc.jpg" alt="image10">
+    </div>
+</div>
+
+
+<!-- Local Script -->
+<script src="./image_slider.js"></script>
+
+<script>
+// The hamburger button animation
+const hamburger = document.querySelector('.hamburger');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    links.forEach(link => {
+        link.classList.toggle('fade');
+    })
+});
+
+
+/* ###########  For the image carousel ########### */
+
+const current = document.querySelector('#current');
+// select all sub images
+const imgs = document.querySelectorAll(".sub-imgs img");
+const img_opacity = 0.6;
+
+// set the first image opacity directly
+imgs[0].style.opacity = img_opacity;
+
+// Using Event delegation to select an image
+document.querySelector(".sub-imgs").addEventListener("click", imgClick);
+
+// // Loop through the nodeList and reach out each image, method 1
+// imgs.forEach(img => img.addEventListener('click', imgClick));
+
+function imgClick(e) {
+    // Reset the opacity of all the images
+    imgs.forEach(img => (img.style.opacity = 1));
+
+    // Change current image to source of clicked image
+    changeImageTo(e.target);
+}
+
+function changeImageTo(image) {
+    imgs.forEach((img) => (img.style.opacity = 1));
+
+    if (image.tagName === "IMG") {
+      current.src = image.src;
+
+      // Add fade in class
+      current.classList.add("fade-in");
+
+      // Remove fade-in after 0.5 seconds
+      setTimeout(() => current.classList.remove("fade-in"), 500);
+
+      // Change the current image opacity
+      image.style.opacity = img_opacity;
+    }
+}
+
+// Adding buttons for image change
+
+// Selections
+const leftButton = document.getElementById("left-button");
+const rightButton = document.getElementById("right-button");
+
+// Event listener
+leftButton.addEventListener('click', leftScroll);
+rightButton.addEventListener('click', rightScroll);
+
+// functions
+
+function leftScroll() {
+    for (let i = 0; i < imgs.length; i++) {
+        if (imgs[i].src === current.src) {
+            currIndex = i - 1;
+            if (currIndex < 0) {
+                currIndex += imgs.length;
+            }
+            changeImageTo(imgs[currIndex]);
+            break;
+        }
+    }
+}
+
+function rightScroll() {
+    for (let i = 0; i < imgs.length; i++) {
+        if (imgs[i].src === current.src) {
+            currIndex = i + 1;
+            if (currIndex > imgs.length - 1) {
+              currIndex -= imgs.length;
+            }
+            changeImageTo(imgs[currIndex]);
+            break;
+        }
+    }
+}
+
+// THANKS TO BRAD TRAVERSY AND DEV-ED, FOR GIVING THIS MUCH INSPIRATION.
+// ALL WALLPAPERS FROM wallpaperflare.com
+</script>
+</body>
+</html>
